@@ -1,1 +1,1 @@
-var recipes = {}
+var recipes = {prop1: 1}
