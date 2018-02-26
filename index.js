@@ -1,3 +1,6 @@
 var recipes = {prop1: 1}
 
-updateObjectWithKeyAndValue(object,key, value)
+function updateObjectWithKeyAndValue(object,key, value){
+  var copy = Object.assign({}, object,recipes, {key: value})
+  return copy
+}
