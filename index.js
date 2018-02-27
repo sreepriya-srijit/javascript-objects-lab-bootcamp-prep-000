@@ -14,10 +14,11 @@ function deleteFromObjectByKey(object, key){
   return delete object[key]
 }
 
+//does not modify the original object (it is non-destructive):
 function deleteFromObjectByKey(object, key){
   var newobj = Object.assign({},object)
   return delete newobj[key]
 }
 
-destructivelyDeleteFromObjectByKey(object, key)
+functiondestructivelyDeleteFromObjectByKey(object, key)
 
